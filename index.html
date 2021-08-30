@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SIGNUP FORM</title>
+</head>
+<style type="text/css">
+    form {
+        margin-top: 0px;
+        font-size: 30px;
+        color: white;
+    }
+
+    body {
+        background-image: url("back.jpg");
+        background-color: #455511;
+    }
+
+    legend {
+        font-size: 50px;
+    }
+
+    label {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <form action="index.php" method="POST">
+        <fieldset style="text-align: center;">
+            <legend>Signup To Create Account</legend>
+            <label>First Name</label><br>
+            <input type="text" name="fname"><br>
+            <label>Last Name</label><br>
+            <input type="text" name="lname"><br>
+            <label>Email :</label><br>
+            <input type="email" name="email" placeholder="Ex:student@gmail.com"> <br>
+            <label>Password</label><br>
+            <input type="Password" name="password" placeholder="***********"><br>
+            <label>ContactNo :</label><br>
+            <input type="number" name="contactNo"><br>
+            <label>Gender :</label>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female<br>
+
+            <input type="submit" name="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
